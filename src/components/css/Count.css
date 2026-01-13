@@ -1,0 +1,27 @@
+.box{
+    background-color: rgb(246, 192, 192,0.1);
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    height: 200px;
+    margin: 0 auto;
+    flex: 1;
+}
+.details{
+    flex: 1;
+    text-align: center;
+}
+p{
+    display: block;
+
+}
+button{
+    padding: 8px 16px;
+    font-size: 20px;
+    margin: 0 10px;
+}
